@@ -1,0 +1,46 @@
+@keyframes moveInTop {
+    0% {
+      opacity: 0;
+      transform: translateY(-300px); }
+    
+    100% {
+      opacity: 1;
+      transform: translateY(0); } }
+  
+  @keyframes moveInBottom {
+    0% {
+      opacity: 0;
+      transform: translateY(100px); }
+    30% {
+      opacity: 5;
+      transform: translate(-200px) rotate(25deg); }
+    80% {
+      opacity: 1;
+      transform: translateY(-55px); }
+    100% {
+      opacity: 1;
+      transform: translateY(5px); } }
+  
+  @keyframes moveInButton {
+    0% {
+      opacity: 0;
+      transform: translateY(500px); }
+    80% {
+      opacity: 1;
+      transform: translateY(-180px); }
+    100% {
+      opacity: 1;
+      transform: translate(0); } }
+
+      @keyframes popupbox {
+        0% {
+          opacity: 0;
+      
+        }
+  
+        100% {
+          opacity: 1;
+  
+          }
+        }
+  

@@ -1,0 +1,82 @@
+
+    .slideshow {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+
+        @include respond(phone) {
+            display: none;
+        }
+
+    }
+      
+      /* Caption text */
+      .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+      }
+      
+      /* Number text (1/3 etc) */
+      .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+      }
+      
+      /* The dots/bullets/indicators */
+      
+      
+      
+      
+      /* Fading animation */
+      .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 5.5s;
+        animation-name: fade;
+        animation-duration: 8.5s;
+      }
+      
+      @-webkit-keyframes fade {
+         0% {opacity: .4}
+              25% {opacity: 1}
+              70% {opacity: .9}
+              100%{opacity: .4}
+      }
+      
+      @keyframes fade {
+         0% {opacity: 0}
+              
+              
+              50% {opacity: .9}
+              60% {opacity: .9}
+              100%{opacity: 0}
+      }
+
+      .folio-phone {
+          background-color: grey;
+          padding: 1rem;
+
+          @include respond(tab-port) {
+              display: none;
+          }
+          @include respond(big-desktop) {
+            display: none;
+        }
+
+           
+
+      
+    
+        }
+
+
+      
+      
+      

@@ -1,0 +1,79 @@
+.header {
+    min-height: 95vh;  
+    margin-bottom: 30px;
+    position: relative;
+   
+    @include respond(tab-port) {
+        margin-bottom: 0;
+        height: 100vh;
+    
+      
+      }
+    
+
+    & .logo {
+        height: 8rem; }
+
+    & .logo-box {
+        position: absolute;
+        top: 2.5rem;
+        left: 2.5rem; }
+    
+    & .text-box {
+        position: absolute;
+        width: 80%;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center; 
+
+        &__features {
+            width: 50%;
+        }
+        @include respond(phone) {
+            width: 90%;
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+          }
+
+        
+    
+        
+    }
+    
+    &__contact {
+    width: 90%;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    text-align: center; 
+        
+    @include respond(phone) {
+        width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    text-align: center;
+    
+      
+      }
+
+      @include respond(tab-land) {
+        width: 90%;
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    text-align: center;
+    
+      
+      }
+    }
+}
+
+
+

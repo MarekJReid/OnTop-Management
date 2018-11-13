@@ -1,0 +1,78 @@
+.facts {
+    position: relative;
+     height: 100%;
+  
+        
+
+    &__box {
+            height: 57rem;
+            display: block;
+            transition: all 1s;
+            background-color: rgba($color-white, .8);
+            padding: .5rem 1rem 0 1rem;
+            border-radius: .2rem;
+            list-style: none;
+            
+            @include respond(tab-port) {
+                height: 55rem;
+                padding: 2.8rem 1rem 0 1rem;
+            }
+
+           
+          
+          &--middle {
+            
+              
+            @include respond(tab-port) {
+                height: 55rem;
+                padding: 2.8rem 1rem 0 1rem;
+            }
+          }  
+
+            &:hover {
+            transform: translateY(0.5rem) scale(1.05);
+        }
+
+        &--left {
+            padding: 4rem 4rem 0rem 4rem;
+
+            @include respond(tab-port) {
+                padding: 8rem 0rem; 
+            }
+            @include respond(phone) {
+                padding: 5rem 0rem; 
+            }
+        }
+
+        &--right {
+            padding-top: 1.8rem;
+
+            
+        }
+
+        &--textholder {
+            height: 800vh;
+        }
+
+
+        
+        
+    
+
+        li {
+            list-style: none;
+            text-align: center;
+            font-size: 1.8rem;
+            
+        }
+
+        @include respond(tab-port) {
+            box-shadow: 0px 1px 12px 1.5px rgba(0, 0, 0, .2);
+
+        }
+    }
+
+    
+
+}
+
