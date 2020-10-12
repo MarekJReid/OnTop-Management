@@ -1434,7 +1434,7 @@ body {
     .facts__box:hover {
       transform: translateY(0.5rem) scale(1.05); }
     .facts__box--left {
-      padding: 4rem 4rem 0rem 4rem; }
+      padding: 2rem 4rem 0rem 4rem; }
       @media (max-width: 56.25em) {
         .facts__box--left {
           padding: 8rem 0rem; } }
