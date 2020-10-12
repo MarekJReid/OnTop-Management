@@ -583,7 +583,7 @@ body {
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2); }
 
 .btn--facts {
-  padding: 2rem 5rem;
+  padding: 1.5rem 5rem;
   width: 100%;
   border-radius: .5rem;
   background-color: rgba(46, 68, 82, 0.8);
